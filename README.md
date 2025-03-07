@@ -30,9 +30,9 @@ The core functionality is implemented in `.h` and `.cpp` files, following JUCE's
 
 ### Install Steps
 1. Download, and locate the plugin `.vst3` and/or `.AU` at `SimpleGainPlugin/Builds/MacOSX/build/Debug`
-1. Copy the `.vst3` file to your vst3 directory
-2. Copy the `.component` file to your AU directory
-3. Restart your DAW or rescan for plugins
+2. Copy the `.vst3` file to your vst3 directory. On Windows, usually `C:\Program Files\Common Files\VST3`. On Mac, usually `/Library/Audio/Plug-Ins/VST3`
+3. (Mac only:) Copy the `.component` file to your AU directory, usually `/Library/Audio/Plug-Ins/Components`
+4. Restart your DAW or rescan for plugins
 5. The plugin should now be available in your DAW's plugin list
 
 ## Usage
